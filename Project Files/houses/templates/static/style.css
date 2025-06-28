@@ -1,0 +1,163 @@
+/* Reset and Basics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+/* Header layout */
+header {
+    background-color: #1f2c3a;
+    padding: 15px 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links li.active a,
+.nav-links li a:hover {
+    color: #ff4d00;
+}
+
+
+
+
+
+/* Hero Section (Home Page) */
+.hero {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1570129477492-45c003edd2be') no-repeat center center/cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: #ff4d00;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e03e00;
+}
+
+/* About, Dashboard, Story Containers */
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+    color: #0056b3;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 30px;
+}
+
+.about img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.about div {
+    flex: 2;
+}
+
+.about h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.about ul {
+    list-style-type: '✔ ';
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+/* Tableau Wrapper */
+.tableau-viz-wrapper {
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    margin-top: 30px;
+}
+
+/* Footer (Optional if used) */
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" style="margin: 0; padding: 0; height: 100vh; overflow: hidden;">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Story - Housing Trends</title>
+</head>
+
+<body style="margin: 0; padding: 0; height: 100vh; overflow: hidden;">
+
+    <!-- Navigation Bar -->
+    <header style="background-color: #1f2c3a; padding: 15px 40px;">
+        <nav style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="color: #fff; font-size: 1.8rem; font-weight: bold;">Housing Trends</div>
+            <ul style="list-style: none; display: flex; gap: 30px; margin: 0; padding: 0;">
+                <li><a href="/" style="color: #fff; text-decoration: none; font-weight: 500;">Home</a></li>
+                <li><a href="/about" style="color: #fff; text-decoration: none; font-weight: 500;">About</a></li>
+                <li><a href="/dashboard" style="color: #fff; text-decoration: none; font-weight: 500;">Dashboard</a>
+                </li>
+                <li><a href="/story" style="color: #ff4d00; text-decoration: none; font-weight: 500;">Story</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Tableau Story Embed -->
+    <div style="height: calc(100vh - 80px);">
+        <div class='tableauPlaceholder' id='vizStory123456' style="height: 100%;">
+            <noscript>
+                <a href='https://public.tableau.com/views/tableau_work111/Sheet6?publish=yes'>
+                    <img alt='Story View' src='https://public.tableau.com/static/images/ta/tableau_work111/Sheet6/1.png'
+                        style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display: none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='path' value='views/tableau_work111/Sheet6' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image'
+                    value='https://public.tableau.com/static/images/ta/tableau_work111/Sheet6/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+            </object>
+        </div>
+        <script type='text/javascript'>
+            var divElement = document.getElementById('vizStory123456');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width = '100%';
+            vizElement.style.height = '100%';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+</body>
+
+</html>
